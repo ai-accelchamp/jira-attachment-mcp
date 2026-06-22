@@ -1,0 +1,16 @@
+{
+	"name": "jira-attachment-mcp",
+	"version": "0.1.0",
+	"description": "Tiny local MCP server that fetches Jira attachments and returns them inline to Claude Code.",
+	"main": "index.js",
+	"type": "commonjs",
+	"scripts": {
+		"setup": "node setup.js"
+	},
+	"dependencies": {
+		"@modelcontextprotocol/sdk": "^1.25.3"
+	},
+	"engines": {
+		"node": ">=18"
+	}
+}
